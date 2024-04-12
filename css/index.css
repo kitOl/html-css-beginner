@@ -56,3 +56,77 @@ main .main-quotes {
     left: 35vh;
     padding-bottom: 8vh;
 }
+
+/* CATEGORY SECTION */
+
+.index-category {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+    flex-wrap: wrap;
+}
+
+.index-category p {
+    color: #111;
+    text-align: center;
+    padding-bottom: 40px;
+    flex-basis: 100%;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.index-category-box {
+    width: 200px;
+    height: 200px;
+    background-color: #111;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.index-category-box:nth-child(2) {
+    background-image: url(../img/categories/web-dev-bg.png);
+}
+
+.index-category-box:nth-child(3) {
+    background-image: url(../img/categories/movie-prod-bg.jpg);
+}
+
+.index-category-box:nth-child(4) {
+    background-image: url(../img/categories/film-edit-bg.jpg);
+}
+
+.index-category-box:nth-child(5) {
+    background-image: url(../img/categories/image-editing-bg.jpg);
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    transition: all ease-in-out 0.2s;
+}
+
+.index-category-box:hover .dark-overlay {
+    opacity: 0;
+}
+
+.index-category-box h3 {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-shadow: -2px 2px 4px #000;
+    z-index: 100;
+}
