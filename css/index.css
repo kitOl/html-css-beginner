@@ -13,8 +13,8 @@ main {
 }
 
 main .main-intro h1 {
-    font-size: 68px;
-    line-height: 78px;
+    font-size: 58px;
+    line-height: 68px;
 }
 
 main p {
@@ -42,12 +42,16 @@ main .main-quotes p:nth-child(2) {
 }
 
 main .main-intro {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.618);
     position: relative;
-    right: 45vh;
+    right: 40vh;
     padding-bottom: 8vh;
 }
 
 main .main-quotes {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.618);
     position: relative;
     left: 35vh;
     padding-bottom: 8vh;
