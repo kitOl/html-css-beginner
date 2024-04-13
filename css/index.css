@@ -14,19 +14,20 @@ main {
 }
 
 main .main-intro h1 {
-    font-size: 58px;
-    line-height: 68px;
+    font-size: 5.8rem;
+    line-height: 1.1;
 }
 
 main p {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.8rem;
+    line-height: 1.75;
 }
 
 main a {
     margin-top: 30px;  
-    font-size: 18px;
+    font-size: 1.8rem;
     display: block;
+    line-height: 1.75;
     background-color: var(--site-color-01);
     padding: 10px 20px;
     width: fit-content;
@@ -79,12 +80,12 @@ main .main-quotes {
     padding-bottom: 40px;
     flex-basis: 100%;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 2.8rem;
 }
 
 .index-category-box {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     background-color: #111;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,8 +129,8 @@ main .main-quotes {
 }
 
 .index-category-box h3 {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 2.2rem;
+    line-height: 1.25;
     text-align: center;
     text-shadow: -2px 2px 4px #000;
     z-index: 100;
@@ -171,7 +172,7 @@ main .main-quotes {
 }
 
 .index-about-text a {
-    font-size: 18px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     display: block;
     background-color: var(--site-color-01);

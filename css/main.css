@@ -3,6 +3,10 @@
   --site-color-01-hover: #ab216f;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 @font-face {
   font-family: Bubble;
   src: url(../Fonts/RubikBubbles-Regular.ttf);
@@ -27,11 +31,12 @@ body::after {
 .wrapper-main {
   width: 1300px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 h1 {
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 2.6rem;
+  line-height: 1.5;
   color: #fff;
   font-family: Roboto;
   font-weight: 600;
@@ -39,8 +44,8 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 2.8rem;
+  line-height: 1.5;
   color: #fff;
   font-family: Roboto;
   font-weight: 600;
@@ -48,8 +53,8 @@ h2 {
 }
 
 h3 {
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 2.6rem;
+  line-height: 1.5;
   color: #fff;
   font-family: Roboto;
   font-weight: 600;
@@ -57,15 +62,16 @@ h3 {
 }
 
 p {
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 1.4rem;
+  line-height: 1.75;
   color: #fff;
   font-family: Roboto;
 }
 
 a {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 1.4rem;
+  line-height: 1.75;
+  /* line-height: 1.25; */
   color: #fff;
   font-family: Roboto;
   cursor: pointer;
@@ -160,7 +166,7 @@ a {
 .footer-main {
   width: 100%;
   padding: 60px 0 100px;
-  background-color: #141414;  
+  background-color: #141414;
 }
 
 .footer-main-flex {
@@ -188,7 +194,7 @@ a {
 
 .footer-testemoni p {
   text-align: center;
-  font-size: 16px;
+  font-size: 1.6rem;
   padding: 20px 20px 0;
 }
 
@@ -207,6 +213,7 @@ a {
 .footer-sitemap {
   flex-basis: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .footer-sitemap a {
