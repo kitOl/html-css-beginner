@@ -24,6 +24,11 @@ body::after {
   content: url(../img/facebook-color.png) url(../img/instagram-color.png);
 }
 
+.wrapper-main {
+  width: 1300px;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 26px;
   line-height: 32px;

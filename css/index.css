@@ -140,14 +140,17 @@ main .main-quotes {
     width: 100%;
     padding: 60px 0;
     background-color: #1a253a;
+}
+
+.index-about-flex {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 50px;
 }
 
 .index-about-img {
-    padding: 0 50px;
+    /* padding: 0 50px; */
 }
 
 .index-about-img img {
@@ -168,6 +171,7 @@ main .main-quotes {
 
 .index-about-text a {
     font-size: 18px;
+    text-transform: uppercase;
     display: block;
     background-color: var(--site-color-01);
     padding: 10px 20px;
