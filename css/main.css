@@ -1,6 +1,6 @@
 :root {
   --site-color-01: #c13584;
-  --site-color-01-hover: #af2874;
+  --site-color-01-hover: #ab216f;
 }
 
 @font-face {
@@ -33,9 +33,27 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 32px;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 p {
   font-size: 14px;
-  line-height: 18px;
+  line-height: 30px;
   color: #fff;
   font-family: Roboto;
 }

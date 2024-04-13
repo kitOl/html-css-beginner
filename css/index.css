@@ -32,6 +32,10 @@ main a {
     width: fit-content;
 }
 
+main a:hover {
+    background-color: var(--site-color-01-hover);
+}
+
 main .main-quotes p {
     border-left: 4px solid var(--site-color-01);
     padding-left: 20px;
@@ -128,4 +132,92 @@ main .main-quotes {
     text-align: center;
     text-shadow: -2px 2px 4px #000;
     z-index: 100;
+}
+
+/* ABOUT SECTION */
+
+.index-about {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #1a253a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.index-about-img {
+    padding: 0 50px;
+}
+
+.index-about-img img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.index-about-text {
+    flex-basis: 455px;
+}
+
+.index-about-text p {
+    padding: 20px 0;
+}
+
+.index-about-text a {
+    font-size: 18px;
+    display: block;
+    background-color: var(--site-color-01);
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.index-about-text a:hover {
+    background-color: var(--site-color-01-hover);
+}
+
+.index-about-skill {
+    width: 350px;
+}
+
+.index-about-skill-bar {
+    width: calc(100% - 8px);
+    height: 20px;
+    border: 4px solid #0b0f16;
+}
+
+.index-about-skill-bar-fill {
+    width: 100%;
+    height: 100%;
+    background-color: var(--site-color-01);
+}
+
+.htmlcss {
+    width: 80%;
+}
+
+.js {
+    width: 50%;
+}
+
+.php {
+    width: 70%;
+}
+
+.sql {
+    width: 60%;
+}
+
+.figma {
+    width: 40%;
+}
+
+.py {
+    width: 50%;
+}
+
+.java {
+    width: 50%;
 }
