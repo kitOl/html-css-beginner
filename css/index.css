@@ -6,10 +6,11 @@ main {
   background-image: url(../img/portrait.png), url(../img/BG.jpg);
   background-size: 70vh, cover;
   background-repeat: no-repeat;
-  background-position: bottom, center;
+  background-position: bottom left calc(50% + 15px), center;
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 450px;
 }
 
 main .main-intro h1 {
@@ -45,7 +46,6 @@ main .main-intro {
     padding: 10px;
     background: rgba(0, 0, 0, 0.618);
     position: relative;
-    right: 40vh;
     padding-bottom: 8vh;
 }
 
@@ -53,7 +53,6 @@ main .main-quotes {
     padding: 10px;
     background: rgba(0, 0, 0, 0.618);
     position: relative;
-    left: 35vh;
     padding-bottom: 8vh;
 }
 
