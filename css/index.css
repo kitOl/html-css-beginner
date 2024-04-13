@@ -30,6 +30,7 @@ main a {
     background-color: var(--site-color-01);
     padding: 10px 20px;
     width: fit-content;
+    transition: all ease-in-out 150ms;
 }
 
 main a:hover {
@@ -176,6 +177,7 @@ main .main-quotes {
     background-color: var(--site-color-01);
     padding: 10px 20px;
     width: fit-content;
+    transition: all ease-in-out 150ms;
 }
 
 .index-about-text a:hover {
