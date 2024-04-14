@@ -13,3 +13,4 @@
 
 
 - [html validator](https://validator.w3.org/)
+- [favico](https://www.favicon.cc/)

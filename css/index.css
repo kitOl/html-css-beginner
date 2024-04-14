@@ -14,284 +14,284 @@ main {
 }
 
 main .main-intro h1 {
-    font-size: 5.8rem;
-    line-height: 1.1;
-    margin-bottom: 20px;
+  font-size: 5.8rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
 }
 
 main p {
-    font-size: 1.8rem;
-    line-height: 1.75;
-    max-width: 400px;
+  font-size: 1.8rem;
+  line-height: 1.75;
+  max-width: 400px;
 }
 
 main a {
-    margin-top: 30px;  
-    font-size: 1.8rem;
-    display: block;
-    line-height: 1.75;
-    background-color: var(--site-color-01);
-    padding: 10px 20px;
-    width: fit-content;
-    transition: all ease-in-out 150ms;
+  margin-top: 30px;
+  font-size: 1.8rem;
+  display: block;
+  line-height: 1.75;
+  background-color: var(--site-color-01);
+  padding: 10px 20px;
+  width: fit-content;
+  transition: all ease-in-out 150ms;
 }
 
 main a:hover {
-    background-color: var(--site-color-01-hover);
+  background-color: var(--site-color-01-hover);
 }
 
 main .main-quotes p {
-    border-left: 4px solid var(--site-color-01);
-    padding-left: 20px;
-    margin: 40px 0;
+  border-left: 4px solid var(--site-color-01);
+  padding-left: 20px;
+  margin: 40px 0;
 }
 
 main .main-quotes p:nth-child(2) {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 main .main-intro {
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.618);
-    position: relative;
-    padding-bottom: 8vh;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.618);
+  position: relative;
+  padding-bottom: 8vh;
 }
 
 main .main-quotes {
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.618);
-    position: relative;
-    padding-bottom: 8vh;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.618);
+  position: relative;
+  padding-bottom: 8vh;
 }
 
 /* CATEGORY SECTION */
 
 .index-category {
-    width: 100%;
-    padding: 60px 0;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    gap: 0 20px;
-    flex-wrap: wrap;
+  width: 100%;
+  padding: 60px 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 0 20px;
+  flex-wrap: wrap;
 }
 
 .index-category p {
-    color: #111;
-    text-align: center;
-    padding-bottom: 40px;
-    flex-basis: 100%;
-    text-transform: uppercase;
-    font-size: 2.8rem;
+  color: #111;
+  text-align: center;
+  padding-bottom: 40px;
+  flex-basis: 100%;
+  text-transform: uppercase;
+  font-size: 2.8rem;
 }
 
 .index-category-box {
-    width: 20rem;
-    height: 20rem;
-    background-color: #111;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  width: 20rem;
+  height: 20rem;
+  background-color: #111;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .index-category-box:nth-child(2) {
-    background-image: url(../img/categories/web-dev-bg.png);
+  background-image: url(../img/categories/web-dev-bg.png);
 }
 
 .index-category-box:nth-child(3) {
-    background-image: url(../img/categories/movie-prod-bg.jpg);
+  background-image: url(../img/categories/movie-prod-bg.jpg);
 }
 
 .index-category-box:nth-child(4) {
-    background-image: url(../img/categories/film-edit-bg.jpg);
+  background-image: url(../img/categories/film-edit-bg.jpg);
 }
 
 .index-category-box:nth-child(5) {
-    background-image: url(../img/categories/image-editing-bg.jpg);
+  background-image: url(../img/categories/image-editing-bg.jpg);
 }
 
 .dark-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    opacity: 0.5;
-    transition: all ease-in-out 0.2s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  transition: all ease-in-out 0.2s;
 }
 
 .index-category-box:hover .dark-overlay {
-    opacity: 0;
+  opacity: 0;
 }
 
 .index-category-box h3 {
-    font-size: 2.2rem;
-    line-height: 1.25;
-    text-align: center;
-    text-shadow: -2px 2px 4px #000;
-    z-index: 100;
+  font-size: 2.2rem;
+  line-height: 1.25;
+  text-align: center;
+  text-shadow: -2px 2px 4px #000;
+  z-index: 100;
 }
 
 /* ABOUT SECTION */
 
 .index-about {
-    width: 100%;
-    padding: 60px 0;
-    background-color: #1a253a;
+  width: 100%;
+  padding: 60px 0;
+  background-color: #1a253a;
 }
 
 .index-about-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
 }
 
 .index-about-img img {
-    display: block;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #000;
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 .index-about-text {
-    flex-basis: 455px;
+  flex-basis: 455px;
 }
 
 .index-about-text p {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .index-about-text a {
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    display: block;
-    background-color: var(--site-color-01);
-    padding: 10px 20px;
-    width: fit-content;
-    transition: all ease-in-out 150ms;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  display: block;
+  background-color: var(--site-color-01);
+  padding: 10px 20px;
+  width: fit-content;
+  transition: all ease-in-out 150ms;
 }
 
 .index-about-text a:hover {
-    background-color: var(--site-color-01-hover);
+  background-color: var(--site-color-01-hover);
 }
 
 .index-about-skill {
-    width: 350px;
+  width: 350px;
 }
 
 .index-about-skill-bar {
-    width: calc(100% - 8px);
-    height: 20px;
-    border: 4px solid #0b0f16;
+  width: calc(100% - 8px);
+  height: 20px;
+  border: 4px solid #0b0f16;
 }
 
 .index-about-skill-bar-fill {
-    width: 100%;
-    height: 100%;
-    background-color: var(--site-color-01);
+  width: 100%;
+  height: 100%;
+  background-color: var(--site-color-01);
 }
 
 .htmlcss {
-    width: 80%;
+  width: 80%;
 }
 
 .js {
-    width: 50%;
+  width: 50%;
 }
 
 .php {
-    width: 70%;
+  width: 70%;
 }
 
 .sql {
-    width: 60%;
+  width: 60%;
 }
 
 .figma {
-    width: 40%;
+  width: 40%;
 }
 
 .py {
-    width: 50%;
+  width: 50%;
 }
 
 .java {
-    width: 50%;
+  width: 50%;
 }
 
 @media only screen and (max-width: 600px) {
-    main {
-        align-items: flex-end;
-    }
+  main {
+    align-items: flex-end;
+    background-position: bottom left calc(50% + 0px), center;
+  }
 
-    main .main-intro {
-        /* background-color: transparent; */
-        padding-bottom: 2vh;
-    }
+  main .main-intro {
+    /* background-color: transparent; */
+    padding-bottom: 2vh;
+  }
 
-    main .main-intro h1 {
-        font-size: 5rem;
-        text-align: center;
-    }
+  main .main-intro h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
 
-    main p {
-        text-align: center;
-        padding: 0 20px;
-        font-size: 1.6rem;
-    }
+  main p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 1.6rem;
+  }
 
-    main a {
-        margin: 30px auto;
-    }
+  main a {
+    margin: 30px auto;
+  }
 
-    main .main-quotes {
-        display: none;
-    }
+  main .main-quotes {
+    display: none;
+  }
 
-    .index-category {
-        padding: 40px 0 20px;
-        row-gap: 10px;
-    }
+  .index-category {
+    padding: 40px 0 20px;
+    row-gap: 10px;
+  }
 
-    .index-category p {
-        padding-bottom: 20px;
-    }
+  .index-category p {
+    padding-bottom: 20px;
+  }
 
-    .index-category-box {
-        width: calc(100% - 20px);
-        height: 160px;
-    }
+  .index-category-box {
+    width: calc(100% - 20px);
+    height: 160px;
+  }
 
-    .index-about-flex {
-        flex-wrap: wrap;
-        row-gap: 20px;
-        text-align: center;
-    }
+  .index-about-flex {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    text-align: center;
+  }
 
-    .index-about-img {
-        width: 60%;
-        height: 60%;
-    }
+  .index-about-img {
+    width: 60%;
+    height: 60%;
+  }
 
-    .index-about-img img {
-        width: 100%;
-        height: 100%;
-    }
+  .index-about-img img {
+    width: 100%;
+    height: 100%;
+  }
 
-    .index-about-text {
-        flex-basis: 100%;
-    }
+  .index-about-text {
+    flex-basis: 100%;
+  }
 
-    .index-about-text a {
-        margin: 0 auto 10px;
-    }
-
+  .index-about-text a {
+    margin: 0 auto 10px;
+  }
 }
