@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Beginner</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    
+    <section class="wrapper-main">
+      <form action="example.html" method="post">
+
+        <label for="firsname">Firstname</label>
+        <br>
+        <input required type="text" id="firstname" name="firstname" placeholder="Firstname">
+        <br><br>
+        <label for="message">Write something cool!</label>
+        <br>
+        <textarea name="message" id="message" placeholder="Write a message..."></textarea>
+        <br><br>
+        <label>Pick your eye color</label>
+        <br>
+        <input type="radio" name="eyecolor" id="eyecolorblue" value="Blue">
+        <label for="eyecolorblue">Blue</label>
+        <input type="radio" name="eyecolor" id="eyecolorbrown" value="Brown">
+        <label for="eyecolorbrown">Brown</label>
+        <input type="radio" name="eyecolor" id="eyecolorgreen" value="Green">
+        <label for="eyecolorgreen">Green</label>
+        <br><br>
+
+        <label>What pets do you have?</label>
+        <br>
+        <input type="checkbox" name="petcat" id="petcat" value="Cat">
+        <label for="petcat">Cat</label>
+        <input type="checkbox" name="petdog" id="petdog" value="Dog">
+        <label for="petdog">Dog</label>
+        <input type="checkbox" name="petbird" id="petbird" value="Bird">
+        <label for="petbird">Bird</label>
+        <br><br>
+
+        <label for="cartype">Car type you own?</label>
+        <br>
+        <select name="cartype" id="cartype">
+          <option value="None">None</option>
+          <option value="Ford">Ford</option>
+          <option value="Opel">Opel</option>
+          <option value="Toyota">Toyota</option>
+        </select>
+        <br><br>
+
+        <button type="submit" value="submit">Send data</button>
+
+      </form>
+    </section>
+
+
+  </body>
+</html>
