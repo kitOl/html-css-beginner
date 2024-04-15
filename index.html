@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Beginner</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
       rel="stylesheet"
@@ -14,6 +15,15 @@
   </head>
 
   <body>
+    <nav class="burger-menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">GALLERY</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+
     <header class="header-main">
       <div class="header-main-logo">
         <img src="img/logo.png" alt="Imagon logo" />
@@ -33,6 +43,7 @@
         <a href="www.instagram.com">
           <div class="header-main-sm-in"></div>
         </a>
+        <div class="burger-menu-btn"></div>
       </div>
     </header>
 
@@ -40,9 +51,8 @@
       <div class="main-intro">
         <h1>Welcome <br />to my first <br />website</h1>
         <p>
-          Nam interdum felis at felis placerat, sed varius <br />massa
-          ultriclies. Integer quis nisi non dolor <br />scelerisque efficitur at
-          sed turpis.
+          Nam interdum felis at felis placerat, sed varius massa ultriclies.
+          Integer quis nisi non dolor scelerisque efficitur at sed turpis.
         </p>
         <a href="#">MY WORK</a>
       </div>
@@ -75,14 +85,14 @@
       </a>
       <a href="#" class="index-category-box">
         <div class="dark-overlay"></div>
-        <h3>Photoshop</h3>
+        <h3>Graphic Design</h3>
       </a>
     </section>
 
     <section class="index-about">
       <div class="wrapper-main index-about-flex">
         <div class="index-about-img">
-          <img src="#" alt="My portrait" />
+          <img src="img/portrait-sm.jpg" alt="My portrait" />
         </div>
         <div class="index-about-text">
           <h2>A bit about me.</h2>
@@ -127,5 +137,81 @@
         </div>
       </div>
     </section>
+
+    <footer class="footer-main">
+      <div class="wrapper-main footer-main-flex">
+        <div class="footer-testimony">
+          <img src="img/portraits/portrait-01.jpg" alt="testimony" />
+          <p>
+            "Lorem ipsum dolor sit amet accusamus sequi dicta vitae blanditiis
+            laudantium natus quo fugiat beatae repellat odit aliquid."
+          </p>
+        </div>
+        <div class="footer-testimony">
+          <img src="img/portraits/portrait-02.jpg" alt="testimony" />
+          <p>
+            "Lorem ipsum dolor sit amet accusamus sequi dicta vitae blanditiis
+            laudantium natus quo fugiat beatae repellat odit aliquid."
+          </p>
+        </div>
+        <div class="footer-testimony">
+          <img src="img/portraits/portrait-03.jpg" alt="testimony" />
+          <p>
+            "Lorem ipsum dolor sit amet accusamus sequi dicta vitae blanditiis
+            laudantium natus quo fugiat beatae repellat odit aliquid."
+          </p>
+        </div>
+        <div class="footer-testimony">
+          <img src="img/portraits/portrait-04.jpg" alt="testimony" />
+          <p>
+            "Lorem ipsum dolor sit amet accusamus sequi dicta vitae blanditiis
+            laudantium natus quo fugiat beatae repellat odit aliquid."
+          </p>
+        </div>
+        <div class="footer-testimony">
+          <img src="img/portraits/portrait-05.jpg" alt="testimony" />
+          <p>
+            "Lorem ipsum dolor sit amet accusamus sequi dicta vitae blanditiis
+            laudantium natus quo fugiat beatae repellat odit aliquid."
+          </p>
+        </div>
+
+        <a class="footer-getintouch" href="#">GET IN TOUCH WITH ME</a>
+
+        <div class="footer-sitemap">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">ABOUT ME</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Movie Production</a></li>
+            <li><a href="#">Video Editing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+
+          <ul>
+            <li>
+              <p>
+                If you want a custom product made, then don't hesitate to send
+                me arrange a small meeting!
+              </p>
+            </li>
+          </ul>
+
+          <ul>
+            <li><p>GET IN TOUCH:</p></li>
+            <li><p>tlf 12 34 56 78</p></li>
+            <li><p>my@name.com</p></li>
+            <li><p>addressroad 102, city name</p></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
